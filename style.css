@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.dark .bg-white {
+  background-color: #333;
+  color: #fff;
+}
+
+.dark .border-blue-400 {
+  border-color: #4a4a4a;
+}
+
+.dark #app {
+  background-color: #333;
+}
+
+.dark h1 {
+  border-color: #333;
+}
+
+.dark #menu {
+  background-color: rgb(51, 51, 51);
+}
+
+.dark #currencySelect {
+  background-color: #333;
+}
+
+.dark #graph {
+  background-color: #3c3c3c;
+}
+
+.dark #aboutUsCell {
+  background-color: #3c3c3c;
+}
+
+.dark #aboutUsCellHeader {
+  color: rgb(163, 163, 163);
+}
